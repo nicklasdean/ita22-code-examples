@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.users;
 
 public class AdminUser {
 }

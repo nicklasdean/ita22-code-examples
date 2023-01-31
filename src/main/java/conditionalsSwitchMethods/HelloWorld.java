@@ -1,10 +1,14 @@
 package conditionalsSwitchMethods;
-
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("Hello World");
-        System.out.println("Hello World");
-        System.out.println("Hello World");
+        newMethod();
+    }
+
+    public static void newMethod(){
+        System.out.println("Hey hvaså");
+        System.out.println("Hey hvaså");
+        System.out.println("Hey hvaså");
+        System.out.println("Hey hvaså");
+        System.out.println("Hey hvaså");
     }
 }
