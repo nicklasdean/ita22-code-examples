@@ -13,6 +13,10 @@ public class Main {
         System.out.println(marioBros2.isOn());
         marioBros2.play();
         System.out.println(marioBros2.isOn());
+        System.out.println(marioBros2.getName());
+        marioBros2.setName("mario bros 2");
+        System.out.println(marioBros2.getName());
+
 
         VideoGame splinterCell = new VideoGame("Splinter Cell", "old school", 0, 20, characters);
         System.out.println(splinterCell);

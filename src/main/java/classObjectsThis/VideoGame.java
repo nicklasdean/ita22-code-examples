@@ -3,12 +3,14 @@ package classObjectsThis;
 import java.util.ArrayList;
 
 public class VideoGame {
-    public String name;
-    public String category;
-    public int pgRating;
-    public double price;
-    public ArrayList<String> characters;
-    public boolean isOnOrOff = false;
+    private String name;
+    private String category;
+    private int pgRating;
+    private double price;
+    private ArrayList<String> characters;
+    private boolean isOnOrOff = false;
+
+    public String cpr;
 
     public VideoGame(String name, String category, int pgRating, double price, ArrayList<String> characters) {
         this.name = name;
@@ -29,6 +31,14 @@ public class VideoGame {
     public void play() {
         isOnOrOff = true;
         System.out.println(this.name + "is Playing");
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
