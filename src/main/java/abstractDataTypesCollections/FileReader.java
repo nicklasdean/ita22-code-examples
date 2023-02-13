@@ -13,6 +13,7 @@ public class FileReader {
         //A scanner with the file
         Scanner bookScanner = new Scanner(alice);
 
+        //Printing each word
         while(bookScanner.hasNext()){
             System.out.println(bookScanner.next());
         }
