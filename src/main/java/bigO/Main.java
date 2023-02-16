@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
-        int numberOfInputs = 100000;
+        int numberOfInputs = 1000000000;
         ArrayList<Integer> inputArray = new ArrayList<Integer>(Collections.nCopies(numberOfInputs, 0));
         //constantTime(inputArray);
         //linearTime(inputArray);
