@@ -9,20 +9,14 @@ public class Main {
         ArrayList<Integer> inputArray = new ArrayList<Integer>(Collections.nCopies(numberOfInputs, 0));
         //constantTime(inputArray);
         //linearTime(inputArray);
-        quadraticTime(inputArray);
-
-
-
+        /*quadraticTime(inputArray);*/
 
         // names we say is an ArrayList
         int number = inputArray.get(0);
         System.out.println(number);
-
-
-
     }
 
-   /* public static void constantTime(ArrayList<Integer> numbers) {
+   public static void constantTime(ArrayList<Integer> numbers) {
         System.out.println("Started");
         numbers.get(0);
         System.out.println("Finished");
@@ -48,15 +42,7 @@ public class Main {
             }
         }
         System.out.println("Finished");
-    }*/
-
-    public static void o2n(ArrayList<Integer> numbers) {
-        for (int i = 0; i < numbers.size(); i++) {
-
-        }
-
-        for (int j = 0; j < numbers.size(); j++) {
-            System.out.println(j);
-        }
     }
+
+
 }
