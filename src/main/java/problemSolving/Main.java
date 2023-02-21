@@ -5,8 +5,10 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hej");
-        System.out.println(getDoubleString("hej"));
+        /*System.out.println("hej");
+        System.out.println(getDoubleString("hej"));*/
+        System.out.println(comesAfter("111mnasd"));
+
     }
 
     public static String getDoubleString(String stringToDouble) {
@@ -43,5 +45,21 @@ public class Main {
         }
 
         return arr;
+    }
+
+    public static boolean comesAfter(String word) {
+        for (int i = 0; i < word.length() - 1; i++) {
+            char currentCharacter = word.charAt(i);
+            String alphabet = "abcdefghijklmnopqrstuvxyzæøå";
+            int alphabetIndexCurrentCharacter = alphabet.indexOf(currentCharacter);
+            int nextCharacter = word.charAt(i + 1);
+            int alphabetIndexNextCharacter = alphabet.indexOf(nextCharacter);
+
+            if(alphabetIndexCurrentCharacter + 1 == alphabetIndexNextCharacter) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
